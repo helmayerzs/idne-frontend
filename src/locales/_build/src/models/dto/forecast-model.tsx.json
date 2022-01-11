@@ -1,0 +1,46 @@
+{
+  "Id": {
+    "origin": [
+      [
+        "src/models/dto/forecast-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Supplier code": {
+    "origin": [
+      [
+        "src/models/dto/forecast-model.tsx",
+        6
+      ],
+      [
+        "src/models/dto/forecast-model.tsx",
+        8
+      ]
+    ]
+  },
+  "ItemNo": {
+    "origin": [
+      [
+        "src/models/dto/forecast-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Delivery date": {
+    "origin": [
+      [
+        "src/models/dto/forecast-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Status": {
+    "origin": [
+      [
+        "src/models/dto/forecast-model.tsx",
+        11
+      ]
+    ]
+  }
+}

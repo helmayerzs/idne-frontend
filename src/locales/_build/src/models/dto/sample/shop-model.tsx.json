@@ -1,0 +1,214 @@
+{
+  "Boltkód": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        7
+      ]
+    ]
+  },
+  "County": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Postal Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        9
+      ]
+    ]
+  },
+  "City": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Address": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        11
+      ]
+    ]
+  },
+  "Lánc név": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        12
+      ]
+    ]
+  },
+  "Regional Representative": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        13
+      ]
+    ]
+  },
+  "Status": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        14
+      ]
+    ]
+  },
+  "EXPORT": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        19
+      ],
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        51
+      ]
+    ]
+  },
+  "VISITED": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        24
+      ],
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        54
+      ]
+    ]
+  },
+  "CEASED": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        29
+      ],
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        57
+      ]
+    ]
+  },
+  "NOT_VISITED": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        34
+      ],
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        60
+      ]
+    ]
+  },
+  "OWN": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        39
+      ],
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        63
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        48
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        68
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        69
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        70
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        71
+      ]
+    ]
+  },
+  "Megjegyzés": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        72
+      ]
+    ]
+  },
+  "Mind": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        76
+      ]
+    ]
+  },
+  "Igen": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        79
+      ]
+    ]
+  },
+  "Nem": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        82
+      ]
+    ]
+  },
+  "Aktív": {
+    "origin": [
+      [
+        "src/models/dto/sample/shop-model.tsx",
+        86
+      ]
+    ]
+  }
+}

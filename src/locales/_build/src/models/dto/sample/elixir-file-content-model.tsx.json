@@ -1,0 +1,330 @@
+{
+  "Csatorna": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Csatorna Neve": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Partner Név": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Irányítószám": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Település": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Cím": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Vevői blokk": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        11
+      ]
+    ]
+  },
+  "FizMód": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        12
+      ]
+    ]
+  },
+  "FizFeltétel": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        13
+      ]
+    ]
+  },
+  "SzamlazasGyak": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        14
+      ]
+    ]
+  },
+  "SzamlaOsszevon": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        15
+      ]
+    ]
+  },
+  "SzamlaTipus": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        16
+      ]
+    ]
+  },
+  "Lanc1": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        17
+      ]
+    ]
+  },
+  "lanc1Nev": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        18
+      ]
+    ]
+  },
+  "partnerLanc2": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        19
+      ]
+    ]
+  },
+  "lanc2Nev": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        20
+      ]
+    ]
+  },
+  "partnerLanc3": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        21
+      ]
+    ]
+  },
+  "lanc3Nev": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        22
+      ]
+    ]
+  },
+  "boltKod": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        23
+      ]
+    ]
+  },
+  "boltNev": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        24
+      ]
+    ]
+  },
+  "boltIrsz": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        25
+      ]
+    ]
+  },
+  "boltTelepules": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        26
+      ]
+    ]
+  },
+  "boltCim": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        27
+      ]
+    ]
+  },
+  "boltBoltiBlokk": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        28
+      ]
+    ]
+  },
+  "boltBoltcsoportkod": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        29
+      ]
+    ]
+  },
+  "boltTerKepviselo": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        30
+      ]
+    ]
+  },
+  "boltSzallNapok": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        31
+      ]
+    ]
+  },
+  "boltTelephely": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        32
+      ]
+    ]
+  },
+  "boltSzallPrioritas": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        33
+      ]
+    ]
+  },
+  "boltCsatorna": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        34
+      ]
+    ]
+  },
+  "boltCsatornaNeve": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        35
+      ]
+    ]
+  },
+  "boltBoltKategoria": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        36
+      ]
+    ]
+  },
+  "boltKategoriaNeve": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        37
+      ]
+    ]
+  },
+  "boltBoltBesorol": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        38
+      ]
+    ]
+  },
+  "boltRendelesMod": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        39
+      ]
+    ]
+  },
+  "boltMinRendeles": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        40
+      ]
+    ]
+  },
+  "boltKategoria2": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        41
+      ]
+    ]
+  },
+  "boltKategoria3": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        42
+      ]
+    ]
+  },
+  "listazottCsop": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        43
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        44
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/elixir-file-content-model.tsx",
+        45
+      ]
+    ]
+  }
+}

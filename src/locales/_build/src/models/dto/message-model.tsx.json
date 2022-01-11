@@ -1,0 +1,42 @@
+{
+  "Id": {
+    "origin": [
+      [
+        "src/models/dto/message-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Supplier code": {
+    "origin": [
+      [
+        "src/models/dto/message-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Start date": {
+    "origin": [
+      [
+        "src/models/dto/message-model.tsx",
+        7
+      ]
+    ]
+  },
+  "End date": {
+    "origin": [
+      [
+        "src/models/dto/message-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Message": {
+    "origin": [
+      [
+        "src/models/dto/message-model.tsx",
+        9
+      ]
+    ]
+  }
+}

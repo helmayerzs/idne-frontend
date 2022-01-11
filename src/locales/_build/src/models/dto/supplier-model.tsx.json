@@ -1,0 +1,82 @@
+{
+  "Code": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Email": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Ftp need": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Remark": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Active": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        11
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        12
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        13
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/supplier-model.tsx",
+        14
+      ]
+    ]
+  }
+}

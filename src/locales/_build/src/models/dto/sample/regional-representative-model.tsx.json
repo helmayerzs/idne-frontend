@@ -1,0 +1,234 @@
+{
+  "Név": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Felhasználónév": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Email": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Tel.": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Region": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        10
+      ]
+    ]
+  },
+  "CENTRAL": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        15
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        40
+      ]
+    ]
+  },
+  "SOUTH": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        19
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        43
+      ]
+    ]
+  },
+  "NORTH": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        23
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        46
+      ]
+    ]
+  },
+  "WEST": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        27
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        49
+      ]
+    ]
+  },
+  "OOH": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        31
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        52
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        37
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        83
+      ]
+    ]
+  },
+  "Rank": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        57
+      ]
+    ]
+  },
+  "CHANNEL_AND_CATEGORY_SPECIALIST": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        62
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        84
+      ]
+    ]
+  },
+  "REPRESENTATIVE": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        65
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        85
+      ]
+    ]
+  },
+  "KEY_ACCOUNT_MANAGER": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        68
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        86
+      ]
+    ]
+  },
+  "OOH_TRADE_MARKETING_SPECIALIST": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        71
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        87
+      ]
+    ]
+  },
+  "POP_COORDINATOR": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        74
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        88
+      ]
+    ]
+  },
+  "TERRITORY_LEADER": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        77
+      ],
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        89
+      ]
+    ]
+  },
+  "SFA": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        91
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        92
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        93
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        94
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/sample/regional-representative-model.tsx",
+        95
+      ]
+    ]
+  }
+}

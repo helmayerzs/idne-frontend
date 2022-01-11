@@ -1,0 +1,34 @@
+{
+  "Supplier": {
+    "origin": [
+      [
+        "src/forms/user-management-form/user-management-form.tsx",
+        158
+      ]
+    ]
+  },
+  "No data": {
+    "origin": [
+      [
+        "src/forms/user-management-form/user-management-form.tsx",
+        158
+      ]
+    ]
+  },
+  "Select supplier": {
+    "origin": [
+      [
+        "src/forms/user-management-form/user-management-form.tsx",
+        158
+      ]
+    ]
+  },
+  "Supplier required": {
+    "origin": [
+      [
+        "src/forms/user-management-form/user-management-form.tsx",
+        158
+      ]
+    ]
+  }
+}

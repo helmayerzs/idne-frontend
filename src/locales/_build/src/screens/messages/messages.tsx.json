@@ -1,0 +1,34 @@
+{
+  "Message": {
+    "origin": [
+      [
+        "src/screens/messages/messages.tsx",
+        14
+      ]
+    ]
+  },
+  "Homepage": {
+    "origin": [
+      [
+        "src/screens/messages/messages.tsx",
+        29
+      ]
+    ]
+  },
+  "Messages": {
+    "origin": [
+      [
+        "src/screens/messages/messages.tsx",
+        30
+      ]
+    ]
+  },
+  "Add new": {
+    "origin": [
+      [
+        "src/screens/messages/messages.tsx",
+        32
+      ]
+    ]
+  }
+}

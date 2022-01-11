@@ -1,0 +1,38 @@
+{
+  "Username": {
+    "origin": [
+      [
+        "src/models/dto/sample/user-management-model.tsx",
+        5
+      ]
+    ]
+  },
+  "First Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/user-management-model.tsx",
+        6
+      ],
+      [
+        "src/models/dto/sample/user-management-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Email": {
+    "origin": [
+      [
+        "src/models/dto/sample/user-management-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Enabled": {
+    "origin": [
+      [
+        "src/models/dto/sample/user-management-model.tsx",
+        9
+      ]
+    ]
+  }
+}

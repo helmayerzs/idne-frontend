@@ -1,0 +1,114 @@
+{
+  "OrderNo": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Supplier code": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        6
+      ]
+    ]
+  },
+  "PoNumber": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        7
+      ]
+    ]
+  },
+  "PoItemNumber": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        8
+      ]
+    ]
+  },
+  "ItemNo": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Order qty": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Delivery date": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        11
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        15
+      ]
+    ]
+  },
+  "UPLOADED": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        18
+      ]
+    ]
+  },
+  "DOWNLOADED": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        21
+      ]
+    ]
+  },
+  "Status": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        25
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        27
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        28
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/order-model.tsx",
+        29
+      ]
+    ]
+  }
+}

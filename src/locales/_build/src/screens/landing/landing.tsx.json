@@ -1,0 +1,42 @@
+{
+  "Rendelések": {
+    "origin": [
+      [
+        "src/screens/landing/landing.tsx",
+        90
+      ]
+    ]
+  },
+  "Előrejelzések": {
+    "origin": [
+      [
+        "src/screens/landing/landing.tsx",
+        93
+      ]
+    ]
+  },
+  "Letöltött / Összes": {
+    "origin": [
+      [
+        "src/screens/landing/landing.tsx",
+        99
+      ],
+      [
+        "src/screens/landing/landing.tsx",
+        105
+      ]
+    ]
+  },
+  "Százalék": {
+    "origin": [
+      [
+        "src/screens/landing/landing.tsx",
+        100
+      ],
+      [
+        "src/screens/landing/landing.tsx",
+        106
+      ]
+    ]
+  }
+}

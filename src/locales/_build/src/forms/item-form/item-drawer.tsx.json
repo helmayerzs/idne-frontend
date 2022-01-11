@@ -1,0 +1,142 @@
+{
+  "{text}": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        39
+      ]
+    ]
+  },
+  "ItemNo": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        154
+      ]
+    ]
+  },
+  "Please type an itemNo": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        157
+      ]
+    ]
+  },
+  "Supplier": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        161
+      ]
+    ]
+  },
+  "No data": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        161
+      ]
+    ]
+  },
+  "Select supplier": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        161
+      ]
+    ]
+  },
+  "Please type an supplier code": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        164
+      ]
+    ]
+  },
+  "Piece / Box": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        170
+      ]
+    ]
+  },
+  "Please type a qty": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        173
+      ]
+    ]
+  },
+  "Active?": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        177
+      ]
+    ]
+  },
+  "Name Eng": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        184
+      ]
+    ]
+  },
+  "Please type a name eng": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        187
+      ],
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        194
+      ]
+    ]
+  },
+  "Name Hun": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        191
+      ]
+    ]
+  },
+  "Mentés": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        201
+      ]
+    ]
+  },
+  "Vissza": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        207
+      ]
+    ]
+  },
+  "Save": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        210
+      ]
+    ]
+  },
+  "Feltöltés": {
+    "origin": [
+      [
+        "src/forms/item-form/item-drawer.tsx",
+        215
+      ]
+    ]
+  }
+}

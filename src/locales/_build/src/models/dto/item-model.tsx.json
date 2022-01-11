@@ -1,0 +1,82 @@
+{
+  "ItemNo": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Supplier": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Name hun": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Name eng": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Piece per box": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Active": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        11
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        12
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        13
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/item-model.tsx",
+        14
+      ]
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "User": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        28
+      ]
+    ]
+  },
+  "Are you sure to delete this user?": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        119
+      ]
+    ]
+  },
+  "Yes": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        119
+      ]
+    ]
+  },
+  "No": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        119
+      ]
+    ]
+  },
+  "username": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        125
+      ]
+    ]
+  },
+  "firstName": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        130
+      ]
+    ]
+  },
+  "lastName": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        135
+      ]
+    ]
+  },
+  "supplierCode": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        140
+      ]
+    ]
+  },
+  "Kezdőoldal": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        154
+      ]
+    ]
+  },
+  "Felhasználó kezelés": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        155
+      ]
+    ]
+  },
+  "Új hozzáadása": {
+    "origin": [
+      [
+        "src/screens/user-management/user-management.tsx",
+        159
+      ]
+    ]
+  }
+}

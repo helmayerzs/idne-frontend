@@ -1,0 +1,98 @@
+{
+  "Loading...": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        70
+      ]
+    ]
+  },
+  "Logout": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        82
+      ]
+    ]
+  },
+  "Kezdőoldal": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        90
+      ]
+    ]
+  },
+  "Orders": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        93
+      ]
+    ]
+  },
+  "Forecasts": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        97
+      ]
+    ]
+  },
+  "Törzsadatok": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        100
+      ]
+    ]
+  },
+  "Suppliers": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        102
+      ]
+    ]
+  },
+  "Items": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        105
+      ]
+    ]
+  },
+  "Delivery calendar": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        110
+      ]
+    ]
+  },
+  "Közlemények": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        114
+      ]
+    ]
+  },
+  "Users management": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        120
+      ]
+    ]
+  },
+  "Help": {
+    "origin": [
+      [
+        "src/routes/index.tsx",
+        145
+      ]
+    ]
+  }
+}

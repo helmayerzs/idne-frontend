@@ -1,0 +1,50 @@
+{
+  "Language": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Mind": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        9
+      ]
+    ]
+  },
+  "HU": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        12
+      ]
+    ]
+  },
+  "EN": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        15
+      ]
+    ]
+  },
+  "Message code": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        20
+      ]
+    ]
+  },
+  "Translate": {
+    "origin": [
+      [
+        "src/models/dto/sample/message-model.tsx",
+        21
+      ]
+    ]
+  }
+}

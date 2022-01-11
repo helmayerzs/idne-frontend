@@ -1,0 +1,118 @@
+{
+  "Hiba a mentés közben": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        37
+      ]
+    ]
+  },
+  "Sikeres mentés": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        40
+      ]
+    ]
+  },
+  "Ismeretlen hiba": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        43
+      ]
+    ]
+  },
+  "Language": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        115
+      ]
+    ]
+  },
+  "Please type a language": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        119
+      ]
+    ]
+  },
+  "Message code": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        125
+      ]
+    ]
+  },
+  "Please type a message code": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        129
+      ]
+    ]
+  },
+  "Translate": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        133
+      ]
+    ]
+  },
+  "Please select a type": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        137
+      ]
+    ]
+  },
+  "Click or drag file to this area to upload": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        150
+      ]
+    ]
+  },
+  "Support for a single upload. Strictly prohibit from uploading company data or other band files": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        151
+      ]
+    ]
+  },
+  "Mentés": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        157
+      ],
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        166
+      ]
+    ]
+  },
+  "Vissza": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        163
+      ]
+    ]
+  },
+  "Feltöltés": {
+    "origin": [
+      [
+        "src/forms/sample/message-form/message-drawer.tsx",
+        171
+      ]
+    ]
+  }
+}

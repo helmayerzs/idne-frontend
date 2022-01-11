@@ -1,0 +1,46 @@
+{
+  "Add": {
+    "origin": [
+      [
+        "src/components/drawer/drawer.tsx",
+        22
+      ],
+      [
+        "src/components/drawer/drawer.tsx",
+        47
+      ]
+    ]
+  },
+  "New": {
+    "origin": [
+      [
+        "src/components/drawer/drawer.tsx",
+        22
+      ]
+    ]
+  },
+  "Edit": {
+    "origin": [
+      [
+        "src/components/drawer/drawer.tsx",
+        26
+      ],
+      [
+        "src/components/drawer/drawer.tsx",
+        51
+      ]
+    ]
+  },
+  ".csv upload": {
+    "origin": [
+      [
+        "src/components/drawer/drawer.tsx",
+        30
+      ],
+      [
+        "src/components/drawer/drawer.tsx",
+        55
+      ]
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Homepage": {
+    "origin": [
+      [
+        "src/screens/delivery-calendars/delivery-calendars.tsx",
+        21
+      ]
+    ]
+  },
+  "Delivery calendar": {
+    "origin": [
+      [
+        "src/screens/delivery-calendars/delivery-calendars.tsx",
+        22
+      ]
+    ]
+  }
+}

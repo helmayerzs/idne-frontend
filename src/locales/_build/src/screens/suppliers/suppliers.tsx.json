@@ -1,0 +1,54 @@
+{
+  "Are you sure to delete this supplier?": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        32
+      ]
+    ]
+  },
+  "Yes": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        32
+      ]
+    ]
+  },
+  "No": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        32
+      ]
+    ]
+  },
+  "Suppliers": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        47
+      ],
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        63
+      ]
+    ]
+  },
+  "Homepage": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        62
+      ]
+    ]
+  },
+  "Add new": {
+    "origin": [
+      [
+        "src/screens/suppliers/suppliers.tsx",
+        65
+      ]
+    ]
+  }
+}

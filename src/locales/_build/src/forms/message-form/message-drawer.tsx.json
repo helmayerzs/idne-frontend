@@ -1,0 +1,114 @@
+{
+  "{text}": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        39
+      ]
+    ]
+  },
+  "Message": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        163
+      ]
+    ]
+  },
+  "Please type a message": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        166
+      ],
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        175
+      ]
+    ]
+  },
+  "Start date": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        172
+      ]
+    ]
+  },
+  "End date": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        181
+      ]
+    ]
+  },
+  "Please type a language": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        185
+      ],
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        195
+      ]
+    ]
+  },
+  "Supplier": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        191
+      ]
+    ]
+  },
+  "Click or drag file to this area to upload": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        207
+      ]
+    ]
+  },
+  "Support for a single upload. Strictly prohibit from uploading company data or other band files": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        208
+      ]
+    ]
+  },
+  "Mentés": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        214
+      ]
+    ]
+  },
+  "Vissza": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        220
+      ]
+    ]
+  },
+  "Save": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        223
+      ]
+    ]
+  },
+  "Feltöltés": {
+    "origin": [
+      [
+        "src/forms/message-form/message-drawer.tsx",
+        228
+      ]
+    ]
+  }
+}

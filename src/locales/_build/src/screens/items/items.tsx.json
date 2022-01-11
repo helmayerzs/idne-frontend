@@ -1,0 +1,54 @@
+{
+  "Are you sure to delete this item?": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        33
+      ]
+    ]
+  },
+  "Yes": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        33
+      ]
+    ]
+  },
+  "No": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        33
+      ]
+    ]
+  },
+  "Items": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        54
+      ],
+      [
+        "src/screens/items/items.tsx",
+        64
+      ]
+    ]
+  },
+  "Homepage": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        63
+      ]
+    ]
+  },
+  "Add new": {
+    "origin": [
+      [
+        "src/screens/items/items.tsx",
+        66
+      ]
+    ]
+  }
+}

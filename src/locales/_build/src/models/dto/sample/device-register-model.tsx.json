@@ -1,0 +1,374 @@
+{
+  "Shop Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Shop Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        9
+      ]
+    ]
+  },
+  "County": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Postal Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        11
+      ]
+    ]
+  },
+  "City": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        12
+      ]
+    ]
+  },
+  "Address": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        13
+      ]
+    ]
+  },
+  "Lánc név": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        14
+      ]
+    ]
+  },
+  "Regional Representative": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        15
+      ]
+    ]
+  },
+  "Shop": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        16
+      ]
+    ]
+  },
+  "Nature": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        19
+      ]
+    ]
+  },
+  "OOH": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        25
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        49
+      ]
+    ]
+  },
+  "TM": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        31
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        46
+      ]
+    ]
+  },
+  "{text}": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        37
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        43
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        144
+      ]
+    ]
+  },
+  "Device Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        53
+      ]
+    ]
+  },
+  "Serial Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        54
+      ]
+    ]
+  },
+  "Inventory Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        55
+      ]
+    ]
+  },
+  "Decoration": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        56
+      ]
+    ]
+  },
+  "Purchasing Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        57
+      ]
+    ]
+  },
+  "Warranty Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        58
+      ]
+    ]
+  },
+  "Maintaned At": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        59
+      ]
+    ]
+  },
+  "Status": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        60
+      ]
+    ]
+  },
+  "TRANSPORTABLE": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        66
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        147
+      ]
+    ]
+  },
+  "NEED_TO_BE_DELIVERED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        72
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        150
+      ]
+    ]
+  },
+  "SERVICED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        78
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        153
+      ]
+    ]
+  },
+  "USED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        84
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        156
+      ]
+    ]
+  },
+  "DURING_DELIVERY": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        90
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        159
+      ]
+    ]
+  },
+  "OUTSOURCED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        96
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        162
+      ]
+    ]
+  },
+  "PUBLISHED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        102
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        165
+      ]
+    ]
+  },
+  "NEED_TO_BE_DISCARDED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        108
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        169
+      ]
+    ]
+  },
+  "DECOR_DAMAGED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        114
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        172
+      ]
+    ]
+  },
+  "NEED_TO_BE_EXAMINED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        120
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        175
+      ]
+    ]
+  },
+  "INACTIVE": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        126
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        178
+      ]
+    ]
+  },
+  "NEED_TO_BE_DISMANTLED": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        132
+      ],
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        181
+      ]
+    ]
+  },
+  "Device": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        185
+      ]
+    ]
+  },
+  "Created By": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        186
+      ]
+    ]
+  },
+  "Created Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        187
+      ]
+    ]
+  },
+  "Updated By": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        188
+      ]
+    ]
+  },
+  "Updated Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-register-model.tsx",
+        189
+      ]
+    ]
+  }
+}

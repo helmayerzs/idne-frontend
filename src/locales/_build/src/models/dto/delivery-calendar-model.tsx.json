@@ -1,0 +1,26 @@
+{
+  "Date": {
+    "origin": [
+      [
+        "src/models/dto/delivery-calendar-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Holiday": {
+    "origin": [
+      [
+        "src/models/dto/delivery-calendar-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/models/dto/delivery-calendar-model.tsx",
+        7
+      ]
+    ]
+  }
+}

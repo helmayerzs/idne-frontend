@@ -1,0 +1,118 @@
+{
+  "ID": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        6
+      ]
+    ]
+  },
+  "Mind": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        10
+      ]
+    ]
+  },
+  "Create": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        13
+      ],
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        33
+      ]
+    ]
+  },
+  "Update": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        16
+      ],
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        29
+      ]
+    ]
+  },
+  "Delete": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        19
+      ],
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        37
+      ]
+    ]
+  },
+  "Kérés típusa": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        23
+      ]
+    ]
+  },
+  "Get": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        41
+      ]
+    ]
+  },
+  "Válasz kód": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        47
+      ]
+    ]
+  },
+  "Válasz üzenet": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        60
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        61
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        62
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        63
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/sample/aurora-connection.tsx",
+        64
+      ]
+    ]
+  }
+}

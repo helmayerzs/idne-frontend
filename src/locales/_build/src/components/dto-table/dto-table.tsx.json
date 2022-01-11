@@ -1,0 +1,34 @@
+{
+  "True": {
+    "origin": [
+      [
+        "src/components/dto-table/dto-table.tsx",
+        84
+      ]
+    ]
+  },
+  "False": {
+    "origin": [
+      [
+        "src/components/dto-table/dto-table.tsx",
+        85
+      ]
+    ]
+  },
+  "Excel Export": {
+    "origin": [
+      [
+        "src/components/dto-table/dto-table.tsx",
+        297
+      ]
+    ]
+  },
+  "Vissza": {
+    "origin": [
+      [
+        "src/components/dto-table/dto-table.tsx",
+        303
+      ]
+    ]
+  }
+}

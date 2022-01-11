@@ -1,0 +1,34 @@
+{
+  "Id": {
+    "origin": [
+      [
+        "src/models/dto/message-document-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Message Id": {
+    "origin": [
+      [
+        "src/models/dto/message-document-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Folder": {
+    "origin": [
+      [
+        "src/models/dto/message-document-model.tsx",
+        7
+      ]
+    ]
+  },
+  "File name": {
+    "origin": [
+      [
+        "src/models/dto/message-document-model.tsx",
+        8
+      ]
+    ]
+  }
+}

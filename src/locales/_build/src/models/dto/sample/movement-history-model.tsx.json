@@ -1,0 +1,586 @@
+{
+  "Work Request Type": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        8
+      ]
+    ]
+  },
+  "DISMANTLING": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        14
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        53
+      ]
+    ]
+  },
+  "DELIVERY": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        20
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        56
+      ]
+    ]
+  },
+  "TRANSIT": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        26
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        59
+      ]
+    ]
+  },
+  "SERVICE": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        32
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        62
+      ]
+    ]
+  },
+  "REPLACEMENT": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        38
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        65
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        50
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        111
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        233
+      ]
+    ]
+  },
+  "Work Request Status": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        69
+      ]
+    ]
+  },
+  "APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        75
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        114
+      ]
+    ]
+  },
+  "DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        81
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        117
+      ]
+    ]
+  },
+  "DELETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        87
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        126
+      ]
+    ]
+  },
+  "COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        93
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        120
+      ]
+    ]
+  },
+  "REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        99
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        123
+      ]
+    ]
+  },
+  "Work Request": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        130
+      ]
+    ]
+  },
+  "Shop Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        133
+      ]
+    ]
+  },
+  "Shop Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        138
+      ]
+    ]
+  },
+  "County": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        139
+      ]
+    ]
+  },
+  "Postal Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        140
+      ]
+    ]
+  },
+  "City": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        141
+      ]
+    ]
+  },
+  "Address": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        142
+      ]
+    ]
+  },
+  "Lánc név": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        143
+      ]
+    ]
+  },
+  "Regional Representative": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        144
+      ]
+    ]
+  },
+  "Shop": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        145
+      ]
+    ]
+  },
+  "Device 1 Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        147
+      ]
+    ]
+  },
+  "Device 1 Serial Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        148
+      ]
+    ]
+  },
+  "Device 1 Inventory Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        149
+      ]
+    ]
+  },
+  "Device 1 Decoration": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        150
+      ]
+    ]
+  },
+  "Device 1": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        151
+      ]
+    ]
+  },
+  "Device 2 Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        153
+      ]
+    ]
+  },
+  "Device 2 Serial Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        154
+      ]
+    ]
+  },
+  "Device 2 Inventory Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        155
+      ]
+    ]
+  },
+  "Device 2 Decoration": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        156
+      ]
+    ]
+  },
+  "Device 2": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        157
+      ]
+    ]
+  },
+  "Created By": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        158
+      ]
+    ]
+  },
+  "Created Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        159
+      ]
+    ]
+  },
+  "Esemenény": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        160
+      ]
+    ]
+  },
+  "...": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        164
+      ]
+    ]
+  },
+  "DISMANTLING_REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        168
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        241
+      ]
+    ]
+  },
+  "DISMANTLING_APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        171
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        238
+      ]
+    ]
+  },
+  "DISMANTLING_DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        174
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        239
+      ]
+    ]
+  },
+  "DISMANTLING_COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        177
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        240
+      ]
+    ]
+  },
+  "TRANSIT_REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        180
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        245
+      ]
+    ]
+  },
+  "TRANSIT_APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        183
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        242
+      ]
+    ]
+  },
+  "TRANSIT_DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        186
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        243
+      ]
+    ]
+  },
+  "TRANSIT_COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        189
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        244
+      ]
+    ]
+  },
+  "DELIVERY_REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        192
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        237
+      ]
+    ]
+  },
+  "DELIVERY_APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        195
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        234
+      ]
+    ]
+  },
+  "DELIVERY_DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        198
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        235
+      ]
+    ]
+  },
+  "DELIVERY_COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        201
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        236
+      ]
+    ]
+  },
+  "SERVICE_REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        204
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        249
+      ]
+    ]
+  },
+  "SERVICE_APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        207
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        246
+      ]
+    ]
+  },
+  "SERVICE_DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        210
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        247
+      ]
+    ]
+  },
+  "SERVICE_COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        213
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        248
+      ]
+    ]
+  },
+  "REPLACEMENT_REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        216
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        253
+      ]
+    ]
+  },
+  "REPLACEMENT_APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        219
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        250
+      ]
+    ]
+  },
+  "REPLACEMENT_DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        222
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        251
+      ]
+    ]
+  },
+  "REPLACEMENT_COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        225
+      ],
+      [
+        "src/models/dto/sample/movement-history-model.tsx",
+        252
+      ]
+    ]
+  }
+}

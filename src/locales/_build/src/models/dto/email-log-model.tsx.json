@@ -1,0 +1,50 @@
+{
+  "Id": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        5
+      ]
+    ]
+  },
+  "Addresses": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Subject": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        7
+      ]
+    ]
+  },
+  "Attachments": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        8
+      ]
+    ]
+  },
+  "Expiration date": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        9
+      ]
+    ]
+  },
+  "Send date": {
+    "origin": [
+      [
+        "src/models/dto/email-log-model.tsx",
+        10
+      ]
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "Név": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Típus": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        7
+      ]
+    ]
+  },
+  "COOLER": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        12
+      ],
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        34
+      ]
+    ]
+  },
+  "DECOR": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        17
+      ],
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        37
+      ]
+    ]
+  },
+  "OTHER": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        22
+      ],
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        40
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        31
+      ]
+    ]
+  },
+  "Megjegyzés": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        45
+      ]
+    ]
+  },
+  "Mind": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        49
+      ]
+    ]
+  },
+  "Igen": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        52
+      ]
+    ]
+  },
+  "Nem": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        55
+      ]
+    ]
+  },
+  "Csoportosítható": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        59
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        60
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        61
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        62
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/sample/device-type-model.tsx",
+        63
+      ]
+    ]
+  }
+}

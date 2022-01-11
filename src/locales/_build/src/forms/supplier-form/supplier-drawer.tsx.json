@@ -1,0 +1,106 @@
+{
+  "Code": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        106
+      ]
+    ]
+  },
+  "Please type a code": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        109
+      ]
+    ]
+  },
+  "Name": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        115
+      ]
+    ]
+  },
+  "Please type a name": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        118
+      ]
+    ]
+  },
+  "Active?": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        124
+      ]
+    ]
+  },
+  "FTPneed?": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        129
+      ]
+    ]
+  },
+  "Remark": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        136
+      ]
+    ]
+  },
+  "Please type a remark": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        139
+      ]
+    ]
+  },
+  "Email": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        145
+      ]
+    ]
+  },
+  "Please type an email": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        148
+      ]
+    ]
+  },
+  "Mentés": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        155
+      ]
+    ]
+  },
+  "Vissza": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        161
+      ]
+    ]
+  },
+  "Save": {
+    "origin": [
+      [
+        "src/forms/supplier-form/supplier-drawer.tsx",
+        164
+      ]
+    ]
+  }
+}

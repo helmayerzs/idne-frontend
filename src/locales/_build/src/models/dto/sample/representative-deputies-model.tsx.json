@@ -1,0 +1,130 @@
+{
+  "Név": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        6
+      ]
+    ]
+  },
+  "Out Of Office End Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        10
+      ]
+    ]
+  },
+  "Deputy 1": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        14
+      ]
+    ]
+  },
+  "Deputy 2": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        15
+      ]
+    ]
+  },
+  "Deputy 3": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        16
+      ]
+    ]
+  },
+  "Deputy 4": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        17
+      ]
+    ]
+  },
+  "Deputy 5": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        18
+      ]
+    ]
+  },
+  "Deputy 6": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        19
+      ]
+    ]
+  },
+  "Deputy 7": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        20
+      ]
+    ]
+  },
+  "Deputy 8": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        21
+      ]
+    ]
+  },
+  "Deputy 9": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        22
+      ]
+    ]
+  },
+  "Deputy 10": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        23
+      ]
+    ]
+  },
+  "Létrehozta": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        24
+      ]
+    ]
+  },
+  "Létrehozva": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        25
+      ]
+    ]
+  },
+  "Módosította": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        26
+      ]
+    ]
+  },
+  "Módosítva": {
+    "origin": [
+      [
+        "src/models/dto/sample/representative-deputies-model.tsx",
+        27
+      ]
+    ]
+  }
+}

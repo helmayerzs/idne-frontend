@@ -1,0 +1,18 @@
+{
+  "Homepage": {
+    "origin": [
+      [
+        "src/screens/forecasts/forecasts.tsx",
+        21
+      ]
+    ]
+  },
+  "Forecasts": {
+    "origin": [
+      [
+        "src/screens/forecasts/forecasts.tsx",
+        22
+      ]
+    ]
+  }
+}

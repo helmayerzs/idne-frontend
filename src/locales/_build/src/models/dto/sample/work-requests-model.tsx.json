@@ -1,0 +1,358 @@
+{
+  "Work Request Type": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        8
+      ]
+    ]
+  },
+  "DISMANTLING": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        14
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        53
+      ]
+    ]
+  },
+  "DELIVERY": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        20
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        56
+      ]
+    ]
+  },
+  "TRANSIT": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        26
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        59
+      ]
+    ]
+  },
+  "SERVICE": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        32
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        62
+      ]
+    ]
+  },
+  "REPLACEMENT": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        38
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        65
+      ]
+    ]
+  },
+  "NONE": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        50
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        111
+      ]
+    ]
+  },
+  "Work Request Status": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        69
+      ]
+    ]
+  },
+  "APPROVED": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        75
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        114
+      ]
+    ]
+  },
+  "DENIED": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        81
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        117
+      ]
+    ]
+  },
+  "DELETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        87
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        126
+      ]
+    ]
+  },
+  "COMPLETED": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        93
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        120
+      ]
+    ]
+  },
+  "REQUIRED": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        99
+      ],
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        123
+      ]
+    ]
+  },
+  "Work Request": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        130
+      ]
+    ]
+  },
+  "Shop Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        133
+      ]
+    ]
+  },
+  "Shop Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        138
+      ]
+    ]
+  },
+  "County": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        139
+      ]
+    ]
+  },
+  "Postal Code": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        140
+      ]
+    ]
+  },
+  "City": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        141
+      ]
+    ]
+  },
+  "Address": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        142
+      ]
+    ]
+  },
+  "Lánc név": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        143
+      ]
+    ]
+  },
+  "Regional Representative": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        144
+      ]
+    ]
+  },
+  "Shop": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        145
+      ]
+    ]
+  },
+  "Device 1 Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        147
+      ]
+    ]
+  },
+  "Device 1 Serial Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        148
+      ]
+    ]
+  },
+  "Device 1 Inventory Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        149
+      ]
+    ]
+  },
+  "Device 1 Decoration": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        150
+      ]
+    ]
+  },
+  "Device 1": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        151
+      ]
+    ]
+  },
+  "Device 2 Name": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        153
+      ]
+    ]
+  },
+  "Device 2 Serial Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        154
+      ]
+    ]
+  },
+  "Device 2 Inventory Number": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        155
+      ]
+    ]
+  },
+  "Device 2 Decoration": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        156
+      ]
+    ]
+  },
+  "Device 2": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        157
+      ]
+    ]
+  },
+  "Remark": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        158
+      ]
+    ]
+  },
+  "Created By": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        159
+      ]
+    ]
+  },
+  "Created Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        160
+      ]
+    ]
+  },
+  "Updated By": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        161
+      ]
+    ]
+  },
+  "Updated Date": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        162
+      ]
+    ]
+  },
+  "Aurora Nr.": {
+    "origin": [
+      [
+        "src/models/dto/sample/work-requests-model.tsx",
+        163
+      ]
+    ]
+  }
+}
