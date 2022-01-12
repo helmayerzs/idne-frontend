@@ -6,6 +6,7 @@ import {AxiosResponse} from "axios";
 import {Trans} from "@lingui/macro";
 import {antdContext} from "../../utils/antdContext";
 import SupplierModel from "../../models/dto/supplier-model";
+import TextArea from "antd/lib/input/TextArea";
 
 interface Interface {
     data?: any;
@@ -72,19 +73,15 @@ const SupplierForm = (props: Interface) => {
 
         if (axiosInstance.current != null) {
             const obj = {
-                id: form.getFieldValue(["code"]),
-                code: form.getFieldValue(["code"]),
-                name: form.getFieldValue(["name"]),
-                active: form.getFieldValue(["active"]),
+                id: form.getFieldValue(["id"]),
+                title: form.getFieldValue(["title"]),
+                content: form.getFieldValue(["content"]),
+                videoLink: form.getFieldValue(["videoLink"]),
                 remark: form.getFieldValue(["remark"]),
-                ftpNeed: form.getFieldValue(["ftpNeed"]),
-                email: form.getFieldValue(["email"]),
-                receiverGate: form.getFieldValue(["receiverGate"]),
-                receiverPlantCode: form.getFieldValue(["receiverPlantCode"]),
                 version: form.getFieldValue(["version"])
             };
             setLoading(true);
-            axiosInstance.current.put(SupplierModel.url + "/id?id=" + form.getFieldValue(["code"]), obj,
+            axiosInstance.current.put(SupplierModel.url + "/id?id=" + form.getFieldValue(["id"]), obj,
                 config).then(() => {
                 openNotification("success");
                 setLoading(false);
@@ -100,14 +97,10 @@ const SupplierForm = (props: Interface) => {
 
         if (axiosInstance.current != null) {
             const obj = {
-                code: form.getFieldValue(["code"]),
-                name: form.getFieldValue(["name"]),
-                active: active,
-                remark: form.getFieldValue(["remark"]),
-                ftpNeed: active,
-                email: form.getFieldValue(["email"]),
-                receiverGate: form.getFieldValue(["receiverGate"]),
-                receiverPlantCode: form.getFieldValue(["receiverPlantCode"])
+                title: form.getFieldValue(["title"]),
+                content: form.getFieldValue(["content"]),
+                videoLink: form.getFieldValue(["videoLink"]),
+                remark: form.getFieldValue(["remark"])
             };
             setLoading(true);
             axiosInstance.current.post(SupplierModel.url, obj,
@@ -136,110 +129,42 @@ const SupplierForm = (props: Interface) => {
               onFinish={() => props.mode === "Edit" ? handleEdit() : handleAddNew()}>
             <>
                 <Row gutter={24}>
-                    <Col span={8}>
+                    <Col span={24}>
                         <Form.Item
-                            name="code"
-                            label={<Trans>Code</Trans>}
-                            children={<Input disabled={props.mode === "Edit"}/>}
+                            name="title"
+                            label={<Trans>Title</Trans>}
+                            children={<Input />}
                             rules={[{
                                 type: "string",
                                 required: true,
-                                message: <Trans>Please type a code</Trans>
+                                message: <Trans>Please type a title</Trans>
                             }]}
-                        />
-                    </Col>
-                    <Col span={16}>
-                        <Form.Item
-                            name="name"
-                            label={<Trans>Name</Trans>}
-                            children={<Input disabled={false}/>}
-                            rules={[{
-                                type: "string",
-                                required: true,
-                                message: <Trans>Please type a name</Trans>
-                            }]}
-                        />
-                    </Col>
-                </Row>
-                <Row gutter={24}>
-                    <Col span={8}>
-                        <Form.Item
-                            name="email"
-                            label={<Trans>Email</Trans>}
-                            children={<Input disabled={false}/>}
-                            rules={[{
-                                type: "string",
-                                required: false,
-                                message: <Trans>Please type an email</Trans>
-                            }]}
-                        />
-                    </Col>
-                    <Col span={8}>
-                        <Form.Item
-                            name="ftpNeed"
-                            label={<Trans>FTPneed?</Trans>}
-                            valuePropName="checked"
-                            rules={[{
-                                type: "boolean"
-                            }]}
-                            children={<Switch defaultChecked onChange={onChangeFtpNeed}/>}
-                        />
-                    </Col>
-                    <Col span={8}>
-                        <Form.Item
-                            name="active"
-                            label={<Trans>Active</Trans>}
-                            valuePropName="checked"
-                            rules={[{
-                                type: "boolean"
-                            }]}
-                            children={<Switch defaultChecked onChange={onChange}/>}
                         />
                     </Col>
                 </Row>
                 <Row gutter={24}>
                     <Col span={24}>
                         <Form.Item
-                            name="remark"
-                            label={<Trans>Remark</Trans>}
-                            children={<Input/>}
+                            name="content"
+                            label={<Trans>Content</Trans>}
+                            children={<TextArea rows={10} />}
                             rules={[{
                                 type: "string",
                                 required: false,
-                                message: <Trans>Please type a remark</Trans>
+                                message: <Trans>Please type an content</Trans>
                             }]}
                         />
                     </Col>
                 </Row>
                 <Row gutter={24}>
-                    <Col span={12}>
+                    <Col span={24}>
                         <Form.Item
-                            name="receiverGate"
-                            label={<Trans>Receiver Gate</Trans>}
+                            name="videoLink"
+                            label={<Trans>Video Link</Trans>}
                             children={<Input/>}
-                            rules={[{
-                                type: "string",
-                                required: false,
-                                max: 5,
-                                message: <Trans>Maximum 5 karakter lehet a kapu.</Trans>
-                            }]}
-                        />
-                    </Col>
-                    <Col span={12}>
-                        <Form.Item
-                            name="receiverPlantCode"
-                            label={<Trans>Receiver Plant Code</Trans>}
-                            children={<Input/>}
-                            rules={[{
-                                type: "string",
-                                required: false,
-                                max: 3,
-                                message: <Trans>Maximum 3 karakter lehet az üzem.</Trans>
-                            }]}
                         />
                     </Col>
                 </Row>
-
             </>
             {props.mode === "Edit" ?
                 <Button loading={loading} htmlType="button" type="primary" onClick={() => form.submit()}>

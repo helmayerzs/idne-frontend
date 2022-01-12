@@ -17,11 +17,11 @@ const SupplierScreen : FC = () => {
 
     const [trigger, setTrigger] = useSafeState(false);
 
-    const mtskAxiosInstance = useAxios(process.env.REACT_APP_API_BASE_URL  + "");
+    const axiosInstance = useAxios(process.env.REACT_APP_API_BASE_URL  + "");
 
     const handleDelete = (id: any) => {
-        if(mtskAxiosInstance.current != null){
-            mtskAxiosInstance.current.delete("/resource/suppliers/id?id="+id)
+        if(axiosInstance.current != null){
+            axiosInstance.current.delete("/resource/posts/id?id="+id)
                 .then(() => {
                     message.success(antdContext('Az adott sor sikeresen törölve lett.'));
                     setTrigger(false);
@@ -38,35 +38,30 @@ const SupplierScreen : FC = () => {
     const action = (text: string, record: any) => {
 
         return  <>
-            <Tooltip placement="top" title={<Trans>Delete supplier</Trans>}>
-                <Popconfirm title={<Trans>Are you sure to delete this supplier?</Trans>}
-                                              onConfirm={() => handleDelete(record.code)}
+            <Tooltip placement="top" title={<Trans>Delete post</Trans>}>
+                <Popconfirm title={<Trans>Are you sure to delete this post?</Trans>}
+                                              onConfirm={() => handleDelete(record.id)}
                                               okText={<Trans>Yes</Trans>}
                                               cancelText={<Trans>No</Trans>}>
                     <DeleteOutlined className={"ActionButtons"} style={{color: "#ff4d4f"}}/>
                 </Popconfirm>
             </Tooltip>
-            <Tooltip placement="top" title={<Trans>Edit supplier</Trans>}>
+            <Tooltip placement="top" title={<Trans>Edit post</Trans>}>
                 <EditTwoTone
                     twoToneColor={"#40a9ff"}
                     className={"ActionButtons"} onClick={
                     () => drawer.open("Edit", {
-                        code: record.code,
-                        name: record.name,
-                        remark: record.remark,
-                        active: record.active,
-                        translated: record.translated,
-                        ftpNeed: record.ftpNeed,
-                        email: record.email,
-                        receiverGate: record.receiverGate,
-                        receiverPlantCode: record.receiverPlantCode,
+                        id: record.id,
+                        title: record.title,
+                        content: record.content,
+                        videoLink: record.videoLink,
                         version: record.version
                     })}/>
             </Tooltip>
         </>
     }
 
-    const text = <Trans>Supplier</Trans>
+    const text = <Trans>Post</Trans>
     const drawer = Drawer(
         {
             title: text,
@@ -77,7 +72,7 @@ const SupplierScreen : FC = () => {
     );
 
     const actions = {
-        width: 90,
+        width: 110,
         render: (text: string, record: any) => action(text, record),
         title: '',
         fixed: 'right',
@@ -87,7 +82,7 @@ const SupplierScreen : FC = () => {
     return  <>
         <Breadcrumb style={{ marginBottom: 10 }}>
             <Breadcrumb.Item><Trans id={'Homepage'}/></Breadcrumb.Item>
-            <Breadcrumb.Item><Trans id={'Suppliers'}></Trans></Breadcrumb.Item>
+            <Breadcrumb.Item><Trans id={'Posts'}></Trans></Breadcrumb.Item>
         </Breadcrumb>
         <DtoTable
             model={SupplierModel}
@@ -96,7 +91,7 @@ const SupplierScreen : FC = () => {
             }
             action={actions}
             trigger={trigger}
-            pageSize={100}
+            pageSize={5}
             scroll={{ x: 1300, y: "65vh" }}
         />
         {drawer.component}

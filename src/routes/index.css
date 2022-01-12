@@ -1,10 +1,10 @@
 body {
-  margin: 0 !important;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif !important;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container{
@@ -44,9 +44,9 @@ code {
 }
 
 .ActionButtons{
-  margin-left: 9px !important;
-  margin-right: 9px !important;
-  font-size: large !important;
+  margin-left: 9px;
+  margin-right: 9px;
+  font-size: large;
 }
 
 .QrButton{
@@ -56,73 +56,65 @@ code {
 
 /* table */
 .ant-table {
-  font-size: 14px !important;
+  font-size: 14px;
 }
 
 /* row data */
 .ant-table-tbody > tr > td {
-  height: 6px !important;
-  padding: 6px !important;
-  background-color: white !important;
+  height: 6px;
+  padding: 6px;
+  background-color: white;
 }
 
 .ant-table-thead > tr > th {
-  height: 5px !important;
-  padding: 4px !important;
+  height: 5px;
+  padding: 4px;
 }
 
 .ant-tag {
-  font-weight: bold !important;
-  font-size: 15px !important;
-  border-width: 3px !important;
-  border-radius: 4px !important;
+  font-weight: bold;
+  font-size: 15px;
+  border-width: 3px;
+  border-radius: 4px;
 }
 
 .ant-table-column-sorters {
-  padding: 5px 5px !important;
+  padding: 5px 5px;
 }
 
 .activeCard {
-  border-color: blue !important;
-  border-width: 1.5px !important;
+  border-color: blue;
+  border-width: 1.5px;
 }
 
 .clickRowStyl{
-  font-weight: bold !important;
+  font-weight: bold;
   filter: contrast(90%) !important;
 }
 
 .ant-table-tbody>.clickRowStyl:hover>td{
-  font-weight: bold !important;
+  font-weight: bold;
   filter: contrast(90%) !important;
 }
 
 .ant-table-tbody>tr{
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 .ant-table-pagination.ant-pagination {
-  margin: 10px 0 0 0 !important;
+  margin: 10px 0 0 0;
 }
 
-.events {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-}
 
-.events .ant-badge-status {
-  width: 100%;
+.crop {
   overflow: hidden;
-  font-size: 12px;
+  text-overflow:ellipsis;
   white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
-.notes-month {
-  font-size: 28px;
-  text-align: center;
-}
-.notes-month section {
-         font-size: 28px;
+.crop2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 90px;
+  width: 600px;
 }

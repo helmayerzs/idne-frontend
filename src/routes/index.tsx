@@ -33,13 +33,14 @@ import {
     ControlOutlined,
     ReconciliationOutlined,
     LogoutOutlined,
-    QuestionCircleOutlined
+    QuestionCircleOutlined, EyeOutlined, BookOutlined
 } from '@ant-design/icons/lib';
 
 import {Footer} from "antd/lib/layout/layout";
 import LandingScreen from "../screens/landing/landing";
 import SupplierScreen from "../screens/suppliers/suppliers";
 import isAuthorized from "../utils/is-authorized";
+import PreviewScreen from "../screens/preview/preview";
 
 const {Header, Sider, Content} = Layout;
 
@@ -116,9 +117,13 @@ export const AppRouter = () => {
                             <Menu.Item key="1" icon={<HomeOutlined/>}>
                                 <Link to="/landing"><Trans>Kezdőoldal</Trans></Link>
                             </Menu.Item>
-                            <Menu.Item key="suppliers" icon={<MessageOutlined/>}>
-                                <Link to="/suppliers"><Trans>Suppliers</Trans></Link>
+                            <Menu.Item key="posts" icon={<BookOutlined />}>
+                                <Link to="/posts"><Trans>Posts</Trans></Link>
                             </Menu.Item>
+                                <Menu.Item key="preview" icon={<EyeOutlined/>}>
+                                    <Link to="/preview"><Trans>Preview</Trans></Link>
+                                </Menu.Item>
+
                             </>
                             : <></>
                         }
@@ -161,7 +166,8 @@ export const AppRouter = () => {
                         <Switch>
                             <PrivateRoute roles={["IDNE_ADMIN"]} exact path="/" component={LandingScreen}/>
                             <PrivateRoute roles={["IDNE_ADMIN"]} exact path="/landing" component={LandingScreen}/>
-                            <PrivateRoute roles={["IDNE_ADMIN"]} exact path="/suppliers" component={SupplierScreen}/>
+                            <PrivateRoute roles={["IDNE_ADMIN"]} exact path="/posts" component={SupplierScreen}/>
+                            <PrivateRoute roles={["IDNE_ADMIN"]} exact path="/preview" component={PreviewScreen}/>
                         </Switch>
                     </Content>
                     <Footer style={{ textAlign: "center", fontSize: 10, paddingTop: 0, paddingRight: 10, paddingLeft: 10, paddingBottom: 9}}>

@@ -12,13 +12,27 @@ import {
 } from '@ant-design/icons/lib';
 import useSafeState from '../../utils/safe-state';
 import React, {ReactNode, useEffect } from "react";
-import {Input, Checkbox, Table, Select, Row, Col, Button, DatePicker, Tag as TagAntd, Space, Tooltip} from 'antd';
+import {
+    Input,
+    Checkbox,
+    Table,
+    Select,
+    Row,
+    Col,
+    Button,
+    DatePicker,
+    Tag as TagAntd,
+    Space,
+    Tooltip,
+    Divider
+} from 'antd';
 import paginationController from "../../controllers/pagination-controller";
 import { SearchOutlined,CheckCircleOutlined,CloseCircleOutlined } from '@ant-design/icons';
 import {ColumnMain} from "../../models/column-main";
 import listController from "../../controllers/list-controller";
 import {ColumnsType} from "antd/es/table";
 import {t, Trans} from "@lingui/macro";
+
 import {useAxios} from "../../utils/hooks";
 import "./dto-table.css";
 const axios = require('axios');
@@ -164,46 +178,63 @@ const DtoTable = (props: Interface) => {
                 width: value.width,
                 filter: value.filter,
                 render: value.render ? value.render : (data : any) => (render(data,undefined)),
-                filterIcon: (filtered : any) => <SearchOutlined style={{ color: filtered ? '#1890ff' : undefined }} />,
+                filteredValue: getProperty(filteredInfo, value.key),
+                filterIcon: (filtered : any) => {
+                    return value.filter != false ? <FilterFilled style={{ color: isFiltered(value.key) ? '#1890ff' : undefined, marginRight: 5}} /> : <></>
+                },
                 filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters } : any) => (
                     value.filter === false
                         ? null
                         : value.uniqueSelectFilterData
                         ? <Select options={value.uniqueSelectFilterData} style={{width: 200}} onChange={value1 => searchHandle(value.key,value1+"",value.dataIndex)} />
-                        : value.dateFilter
-                            ? <DatePicker format={'YYYY-MM-DD'} placeholder={'YYYY-MM-DD'} onChange={(date) => onChangeDate(date, value.key)}/>
-                            : value.dateTimeFilter
-                                ? <DatePicker showTime={true} format={'YYYY-MM-DD HH:mm'} placeholder={'YYYY-MM-DD HH:mm'} onChange={(dateTime) => onChangeDateTime(dateTime, value.key)}/>
-                                :
+                        : value.checkboxFilter
+                            ? <Checkbox.Group style={{padding:'10px'}} options={data!=null?data:simpleOptions} onChange={(checkedValue) => onChange(checkedValue,value.key)} />
+                            : value.dateFilter
+                                ? <DatePicker format={'YYYY-MM-DD'} placeholder={i18n._(t`dateFormat`)} onChange={(date) => onChangeDate(date, value.key)}/>
+                                : value.dateTimeFilter
+                                    ? <DatePicker showTime={true} format={'YYYY-MM-DD HH:mm'} placeholder={i18n._(t`dateTimeFormat`)} onChange={(dateTime) => onChangeDateTime(dateTime, value.key)}/>
+                                    :
                                     <div style={{ padding: 8 }}>
-                                        <Input
-                                            value={selectedKeys[0]}
-                                            onChange={e => setSelectedKeys(e.target.value ? [e.target.value] : [])}
-                                            onPressEnter={(event:any) => {
-                                                searchHandle(event.target.id,event.target.value,value.dataIndex);
-                                                confirm({ closeDropdown: false });
-                                            }}
-                                            style={{ marginBottom: 8, display: 'block', width: value.width }}
-                                        />
-                                        <Space>
-                                            <Button
-                                                type="primary"
-                                                onClick={(event : any) => {
-                                                    searchHandle(value.key,selectedKeys[0],value.dataIndex);
-                                                    confirm({ closeDropdown: false });
-                                                }}
-                                                icon={<SearchOutlined />}
-                                                size="small"
-                                                style={{ width: 90 }}
-                                            >
-                                            </Button>
-                                            <Button onClick={() => handleReset(clearFilters)}
-                                                    icon={<SearchOutlined />}
-                                                    size="small" style={{ width: 90 }}>
-                                            </Button>
-                                        </Space>
-                                    </div>)
-            });
+                                        <Row>
+                                            <Col>
+                                                <Input
+                                                    allowClear={true}
+                                                    value={getActFilter(value.key)}
+                                                    onChange={e => {
+                                                        if (e.target.value === '') {
+                                                            actFilters.delete(value.key);
+                                                            setSelectedKeys('');
+                                                            searchHandle(value.key,undefined,value.dataIndex);
+                                                            handleReset(clearFilters);
+                                                            confirm({ closeDropdown: false });
+                                                        }
+                                                        actFilters.set(value.key, e.target.value ? [e.target.value] : []);
+                                                        setSelectedKeys(e.target.value ? [e.target.value] : []);
+                                                    }
+                                                    }
+                                                    onPressEnter={(event:any) => {
+                                                        searchHandle(value.key,getActFilter(value.key),value.dataIndex);
+                                                        confirm({ closeDropdown: false });
+                                                    }}
+                                                    style={{ marginRight: 1, width: value.width}}
+                                                />
+                                                <>
+                                                    <Button
+                                                        style={{ marginRight: 1}}
+                                                        type="primary"
+                                                        onClick={(event : any) => {
+                                                            searchHandle(value.key,getActFilter(value.key),value.dataIndex);
+                                                            confirm({ closeDropdown: false });
+                                                        }}
+                                                        icon={<SearchOutlined />}
+                                                    >
+                                                    </Button>
+                                                </>
+
+                                            </Col>
+                                        </Row>
+                                    </div>
+                )});
         });
 
         return generatedColumns;
@@ -221,7 +252,7 @@ const DtoTable = (props: Interface) => {
         s = s.replace(/\[(\w+)\]/g, '.$1');
         s = s.replace(/^\./, '');
         var a = s.split('.');
-        for (var i = 0, n = a.length; i < n; ++i) {
+        for (var i = 0; i < a.length; ++i) {
             var k = a[i];
             if (k != null && o != null && k in o) {
                 o = o[k];
@@ -288,8 +319,8 @@ const DtoTable = (props: Interface) => {
                 render: value.render ? value.render : (data : any) => (render(data,tags)),
                 filteredValue: getProperty(filteredInfo, value.key),
                 filterIcon: (filtered : any) => {
-                    return <FilterFilled style={{ color: isFiltered(value.key) ? '#1890ff' : undefined, marginRight: 5}} />
-                    },
+                    return value.filter != false ? <FilterFilled style={{ color: isFiltered(value.key) ? '#1890ff' : undefined, marginRight: 5}} /> : <></>
+                },
                 filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters } : any) => (
                     value.filter === false
                         ? null
@@ -302,46 +333,46 @@ const DtoTable = (props: Interface) => {
                                 : value.dateTimeFilter
                                     ? <DatePicker showTime={true} format={'YYYY-MM-DD HH:mm'} placeholder={i18n._(t`dateTimeFormat`)} onChange={(dateTime) => onChangeDateTime(dateTime, value.key)}/>
                                     :
-                                        <div style={{ padding: 8 }}>
-                                            <Row>
-                                                <Col>
-                                                    <Input
-                                                        allowClear={true}
-                                                        value={getActFilter(value.key)}
-                                                        onChange={e => {
-                                                            if (e.target.value === '') {
-                                                                actFilters.delete(value.key);
-                                                                setSelectedKeys('');
-                                                                searchHandle(value.key,undefined,value.dataIndex);
-                                                                handleReset(clearFilters);
-                                                                confirm({ closeDropdown: false });
-                                                            }
-                                                            actFilters.set(value.key, e.target.value ? [e.target.value] : []);
-                                                            setSelectedKeys(e.target.value ? [e.target.value] : []);
-                                                            }
+                                    <div style={{ padding: 8 }}>
+                                        <Row>
+                                            <Col>
+                                                <Input
+                                                    allowClear={true}
+                                                    value={getActFilter(value.key)}
+                                                    onChange={e => {
+                                                        if (e.target.value === '') {
+                                                            actFilters.delete(value.key);
+                                                            setSelectedKeys('');
+                                                            searchHandle(value.key,undefined,value.dataIndex);
+                                                            handleReset(clearFilters);
+                                                            confirm({ closeDropdown: false });
                                                         }
-                                                        onPressEnter={(event:any) => {
+                                                        actFilters.set(value.key, e.target.value ? [e.target.value] : []);
+                                                        setSelectedKeys(e.target.value ? [e.target.value] : []);
+                                                    }
+                                                    }
+                                                    onPressEnter={(event:any) => {
+                                                        searchHandle(value.key,getActFilter(value.key),value.dataIndex);
+                                                        confirm({ closeDropdown: false });
+                                                    }}
+                                                    style={{ marginRight: 1, width: value.width}}
+                                                />
+                                                <>
+                                                    <Button
+                                                        style={{ marginRight: 1}}
+                                                        type="primary"
+                                                        onClick={(event : any) => {
                                                             searchHandle(value.key,getActFilter(value.key),value.dataIndex);
                                                             confirm({ closeDropdown: false });
                                                         }}
-                                                        style={{ marginRight: 1, width: value.width}}
-                                                    />
-                                                    <>
-                                                        <Button
-                                                            style={{ marginRight: 1}}
-                                                            type="primary"
-                                                            onClick={(event : any) => {
-                                                                searchHandle(value.key,getActFilter(value.key),value.dataIndex);
-                                                                confirm({ closeDropdown: false });
-                                                            }}
-                                                            icon={<SearchOutlined />}
-                                                        >
-                                                        </Button>
-                                                    </>
+                                                        icon={<SearchOutlined />}
+                                                    >
+                                                    </Button>
+                                                </>
 
-                                                </Col>
-                                            </Row>
-                                        </div>
+                                            </Col>
+                                        </Row>
+                                    </div>
                 ),...extra});
 
             i=i+1;
@@ -361,13 +392,22 @@ const DtoTable = (props: Interface) => {
         return columns;
     }
 
-    const isAnyFilter = () : any => {
+    const isAnyFilter = (query: any, results = []) => {
+        const r: any = results;
 
-        for (var key of Object.keys(queryModel)) {
-                if(queryModel[key] != null){
-                    return true;
+        if(query != null){
+            for (var key of Object.keys(query)) {
+                const value = query[key];
+                if(value != undefined && value != null && typeof value !== 'object'){
+                    r.push(value);
+                }else if(typeof value === 'object'){
+                    isAnyFilter(value, r);
                 }
+            }
         }
+
+        console.log(r.length);
+        return r.length > 0;
     };
 
     const searchHandle = (columnId : string, data : any, dataIndex?:string[]) => {
@@ -392,7 +432,7 @@ const DtoTable = (props: Interface) => {
             queryModel[columnId] =  (data==="null" || data==="")?undefined:data;
         }
 
-        setIsAnyFilterOnTable(isAnyFilter);
+        setIsAnyFilterOnTable(isAnyFilter(queryModel));
         setPage(1);
         setSearchTrigger(prevState => !prevState);
     }
@@ -441,17 +481,11 @@ const DtoTable = (props: Interface) => {
         }
         else {
             if(props.query != null){
-                console.log(props.query);
-                if(props.query.sapFileIncomingId != null){
-                    queryModel.sapFileIncomingId = props.query.sapFileIncomingId;
-                }
-
-                if(props.query.fileType != null){
-                    queryModel.fileType = props.query.fileType;
-                }
+                queryModel.headId = props.query.headId
             }
 
             if (direction!==undefined && axiosResourceInstance.current != null) {
+                console.log(page, size);
                 paginationController(queryModel, props.model.url, size, direction, sortedField, (data: any) => setData(data), (data: any) => setTotalElements(data), page, axiosResourceInstance.current);
             }
         }
@@ -490,8 +524,9 @@ const DtoTable = (props: Interface) => {
         setXlsDownloading(true);
         if(axiosInstance.current != null){
             const FileDownload = require('js-file-download');
+            let lang = localStorage.getItem('language') ? localStorage.getItem('language') : 'hu';
             axiosInstance.current({
-                url: process.env.REACT_APP_API_BASE_URL + '/resource/' + props.apiUrl + '/xls/',
+                url: process.env.REACT_APP_API_BASE_URL + '/resource/' + props.apiUrl + '/' + lang + '/xls/',
                 method: 'POST',
                 responseType: 'blob',
                 data: queryModel
@@ -548,9 +583,9 @@ const DtoTable = (props: Interface) => {
     const clearFilters = () => {
 
         Object.keys(queryModel).forEach(key => {
-           if(queryModel[key] != null){
-               queryModel[key] = null;
-           }
+            if(queryModel[key] != null){
+                queryModel[key] = null;
+            }
         });
 
         actFilters.clear();
@@ -584,15 +619,16 @@ const DtoTable = (props: Interface) => {
                         </Button>
                     </Tooltip>
                     {props.allowExport && props.allowExport == true
-                        ?
-                        <Button
-                            loading={xlsDownloading}
-                            onClick={() => handleDownloadXls()}
-                            style={{float: "right"}}
-                            >
-                            <FileExcelOutlined />
-                            <span><Trans>Excel Export</Trans></span>
-                        </Button>
+                        ?<>
+                            <Button
+                                loading={xlsDownloading}
+                                onClick={() => handleDownloadXls()}
+                                style={{float: "left", marginBottom: 10}}>
+                                <FileExcelOutlined />
+                                <span><Trans>Excel Export</Trans></span>
+                            </Button>
+                            <Divider type="vertical" style={{float: "left", fontSize: "xxx-large"}}/>
+                        </>
                         :<></>
                     }
                 </Col>

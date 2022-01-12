@@ -24,8 +24,9 @@ const paginationController = (
     })
         .then(function (response : AxiosResponse<any>)
         {
+            console.log(response.data);
             setData(response.data.data);
-            SetTotalElement(response.data.totalElements);
+            SetTotalElement(response.data.recordsTotal);
         })
         .catch(function (error: any) {
             console.log(error);//TODO::EndIt
